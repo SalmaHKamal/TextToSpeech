@@ -22,6 +22,7 @@
 		8068A5AC232BA159000623E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8068A5AF232BA159000623E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8068A5B1232BA159000623E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068A5B8232BA19D000623E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				8068A5A4232BA158000623E0 /* TextToSpeech */,
 				8068A5A3232BA158000623E0 /* Products */,
+				8068A5B7232BA19D000623E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +64,14 @@
 				8068A5B1232BA159000623E0 /* Info.plist */,
 			);
 			path = TextToSpeech;
+			sourceTree = "<group>";
+		};
+		8068A5B7232BA19D000623E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8068A5B8232BA19D000623E0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
